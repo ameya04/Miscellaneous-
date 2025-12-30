@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<iostream>
+
+using namespace std;
+
+void check(int a, int b, int c){
+    cout<<"mention side lengths";
+    cin>>a>>b>>c;
+    if ((a+b)>c && (b+c)>a && (c+a)>b){
+        cout<<"possible triangle";
+        
+    }
+    else {cout<<"no";}
+    
+}
+int main(){
+    int a,b,c;
+    check(a,b,c);
+    return 0;
+}
